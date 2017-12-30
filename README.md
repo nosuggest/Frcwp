@@ -31,7 +31,7 @@ Frcwp is implemented in Python 3.6, use Pandas.DataFrame to store data. These pa
 # Release
 - V0.0.2 : increase some function.
 - V0.0.3 : increase the method at small data.
-- V0.0.4 : new a single project
+- V0.0.4 : rename the package
 
 # TO-DO
 - feature scanning
