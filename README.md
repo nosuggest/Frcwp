@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/language-python-lightgrey.svg)
 # What is Frcwp?
 It means fast risk control with python.It's a lightweight tool that automatic recognize the outliers from a large data pool. ALL u need to do is making the data into a dataframe with columns. This project aims to help people get easily method with abnormal recognition, especially forces password attacks.We wish it could be a nice Open Source which could simplify the complexity of the Data Feature Project.  
 
