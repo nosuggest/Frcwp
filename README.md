@@ -12,7 +12,7 @@ We got the correctness around 29 data sets below,however the speed of Frcwp come
 # Usage
 U can get it easily download from Pypi with `pip install Frcwp`.
 
-```
+```python
 import pandas as pd
 from Frcwp import Frcwp
 
