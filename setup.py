@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='Frcwp',
-    version='0.0.4',
+    version='0.0.5',
     description=(
         'recognize the outliers of the data set'
     ),
