@@ -1,6 +1,9 @@
 ![](https://img.shields.io/badge/license-MIT-000000.svg)
 # What is Frcwp
-It means fast risk control with python.It's a lightweight tool that automatic recognize the outliers from a large data pool. ALL u need to do is making the data into a dataframe with columns. This project aims to help people get easily method with abnormal recognition, especially forces password attacks.We wish it could be a nice Open Source which could simplify the complexity of the Data Feature Project.  
+It means fast risk control with python.
+It's a lightweight tool that automatic recognize the outliers from a large data pool. 
+This project aims to help people get easily method with abnormal recognition, especially forces password attacks.
+We wish it could be a nice Open Source which could simplify the complexity of the Data Feature Project.  
 
 # Theory
 **@bolg:[风控用户识别方法](http://shataowei.com/2017/12/09/风控用户识别方法/)**
@@ -10,7 +13,7 @@ We got the correctness around 29 data sets below,however the speed of Frcwp come
 ![](http://upload-images.jianshu.io/upload_images/1129359-90b9e7933f787fd4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # Usage
-U can get it easily download from Pypi with `pip install Frcwp`.
+U can get it easily download from Pypi with **`pip install Frcwp`**.
 
 ```python
 import pandas as pd
