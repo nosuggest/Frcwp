@@ -1,10 +1,10 @@
 import pandas as pd
 import numpy as np
 import sys
-from reshapedata import natest as _natest
-from reshapedata import valuenumber, coltest, standardizeddata, formatcheck
-from distince import distince
-from slicing import grouped, isolationforest, iswhole
+from .reshapedata import natest as _natest
+from .reshapedata import valuenumber, coltest, standardizeddata, formatcheck
+from .distince import distince
+from .slicing import grouped, isolationforest, iswhole
 
 
 class Frcwp():
@@ -97,7 +97,8 @@ class Frcwp():
             colt1 = coltest(cov_cal_X)
             colt1_cal_X, colt1_col_index = colt1.columnstest()
             if len(colt1_col_index) <= 1:
-                raise ValueError('the outlier among the train data is too small ,PLS turn the is_scale = 0 or add reshape data')
+                raise ValueError(
+                    'the outlier among the train data is too small ,PLS turn the is_scale = 0 or add reshape data')
             while cov_cal_X.shape != colt1_cal_X.shape:
                 colt = coltest(pd.DataFrame(colt_cal_X).iloc[:, colt1_col_index])
                 colt_cal_X, colt_col_index = colt.columnstest()
