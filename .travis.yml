@@ -3,9 +3,6 @@ python:
   - "3.6"
 install:
   - pip install Frcwp
-notifications:
-  email:
-    recipients:
-      - stw386@sina.com
-    on_success: always
-    on_failure: always
+script:
+  - cd tests
+  - py.test utils.py
