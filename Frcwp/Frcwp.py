@@ -94,7 +94,7 @@ class Frcwp():
             raise NotImplementedError('distince_method should be Maha or Eucl~')
 
         if self.distince_method == 'Maha':
-            colt1 = coltest(cov_cal_X)
+            colt1 = coltest(pd.DataFrame(cov_cal_X))
             colt1_cal_X, colt1_col_index = colt1.columnstest()
             if len(colt1_col_index) <= 1:
                 raise ValueError(
