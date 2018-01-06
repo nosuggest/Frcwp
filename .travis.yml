@@ -6,5 +6,6 @@ install:
   - pip install pandas
   - pip install numpy 
   - pip install scikit-learn
+  - pip install scipy
 script:
   - python tests/utils.py
