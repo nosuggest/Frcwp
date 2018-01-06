@@ -3,6 +3,8 @@ python:
   - "3.6"
 install:
   - pip install Frcwp
+  - pip install pandas
+  - pip install numpy 
+  - pip install scikit-learn
 script:
-  - cd tests
-  - py.test utils.py
+  - python tests/utils.py

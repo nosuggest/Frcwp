@@ -1,7 +1,7 @@
 import pandas as pd
 from Frcwp import Frcwp
 
-path = '../data/data_all.csv'
+path = 'data/data_all.csv'
 traindata = pd.read_csv(path)
 
 frc = Frcwp()
