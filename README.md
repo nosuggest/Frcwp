@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/license-MIT-000000.svg)
 [![Build Status](https://travis-ci.org/sladesha/Frcwp.svg?branch=master)](https://travis-ci.org/sladesha/Frcwp)
+[![](https://img.shields.io/badge/pypi-0.0.7-blue.svg)](https://pypi.python.org/pypi?:action=display&name=Frcwp&version=0.0.7)
 # What is Frcwp
 It means fast risk control with python.
 It's a lightweight tool that automatic recognize the outliers from a large data pool. 
